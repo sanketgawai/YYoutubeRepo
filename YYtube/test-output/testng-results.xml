@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T15:26:05 IST" name="Suite" finished-at="2024-07-17T15:26:15 IST" duration-ms="9953">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T15:26:05 IST" name="Test" finished-at="2024-07-17T15:26:15 IST" duration-ms="9953">
+      <class name="testClasses.CreateAccnTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:05 IST" name="openBrowser" finished-at="2024-07-17T15:26:06 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="pomClassObject()[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:06 IST" name="pomClassObject" finished-at="2024-07-17T15:26:06 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomClassObject -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:07 IST" name="openApplication" finished-at="2024-07-17T15:26:10 IST" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="sendNameAndCheckTitle(java.lang.String,java.lang.String)[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:10 IST" name="sendNameAndCheckTitle" data-provider="validateCredential" finished-at="2024-07-17T15:26:12 IST" duration-ms="2404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luffy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emprorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendNameAndCheckTitle -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:12 IST" name="openApplication" finished-at="2024-07-17T15:26:13 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="sendNameAndCheckTitle(java.lang.String,java.lang.String)[pri:0, instance:testClasses.CreateAccnTest@20deea7f]" started-at="2024-07-17T15:26:13 IST" name="sendNameAndCheckTitle" data-provider="validateCredential" finished-at="2024-07-17T15:26:15 IST" duration-ms="1963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zoro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dark king]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendNameAndCheckTitle -->
+      </class> <!-- testClasses.CreateAccnTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
